@@ -1,4 +1,30 @@
 ﻿<Properties StartupConfiguration="{8DA078FF-B4B4-47C9-9B92-18FB25EB1B6E}|https">
-  <MonoDevelop.Ide.ItemProperties.MagicVilla__VillaAPI FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MagicVilla_VillaAPI/appsettings.json">
+    <Files>
+      <File FileName="MagicVilla_VillaAPI/Controllers/WeatherForecastController.cs" Line="19" Column="6" />
+      <File FileName="MagicVilla_VillaAPI/Controllers/VillaAPIContoller.cs" Line="22" Column="4" />
+      <File FileName="MagicVilla_VillaAPI/Models/Villa.cs" Line="7" Column="7" />
+      <File FileName="MagicVilla_VillaAPI/Program.cs" Line="25" Column="11" />
+      <File FileName="MagicVilla_VillaAPI/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MagicVilla" expanded="True" selected="True">
+            <Node name="MagicVilla_VillaAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MagicVilla__VillaAPI PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
 </Properties>
