@@ -17,6 +17,12 @@
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
     <PackageReference Include="Serilog.Sinks.Debug" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="NuGet.Commands" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +36,9 @@
     <None Remove="Serilog.Sinks.Console" />
     <None Remove="Serilog.Sinks.Debug" />
     <None Remove="Logging\" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="NuGet.Commands" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
