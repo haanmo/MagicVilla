@@ -1,0 +1,194 @@
+2022-11-28 17:20:47.774 -08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-28 17:20:48.279 -08:00 [DBG] Entity Framework Core 7.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2022-11-28 17:20:48.494 -08:00 [DBG] 'ApplicationDbContext' disposed.
+2022-11-28 17:25:28.162 -08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-28 17:25:28.587 -08:00 [DBG] Entity Framework Core 7.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2022-11-28 17:25:28.797 -08:00 [DBG] 'ApplicationDbContext' disposed.
+2022-11-28 17:27:36.014 -08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-28 17:27:36.480 -08:00 [DBG] Entity Framework Core 7.0.0 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2022-11-28 17:27:36.499 -08:00 [DBG] Creating DbConnection.
+2022-11-28 17:27:36.538 -08:00 [DBG] Created DbConnection. (35ms).
+2022-11-28 17:27:36.540 -08:00 [DBG] Migrating using database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.544 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.699 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.704 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.709 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2022-11-28 17:27:36.712 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2022-11-28 17:27:36.718 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-28 17:27:36.739 -08:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-28 17:27:36.740 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.749 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (4ms).
+2022-11-28 17:27:36.751 -08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-28 17:27:36.751 -08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-28 17:27:36.751 -08:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-28 17:27:36.751 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.752 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.753 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-28 17:27:36.764 -08:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-28 17:27:36.764 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.764 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (0ms).
+2022-11-28 17:27:36.765 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.765 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.765 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.765 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.765 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.765 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-28 17:27:36.766 -08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-11-28 17:27:36.766 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.766 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (0ms).
+2022-11-28 17:27:36.766 -08:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-28 17:27:36.766 -08:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-28 17:27:36.766 -08:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-28 17:27:36.766 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.766 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.766 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-28 17:27:36.767 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-28 17:27:36.767 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.767 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (0ms).
+2022-11-28 17:27:36.787 -08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-28 17:27:36.787 -08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-28 17:27:36.787 -08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2022-11-28 17:27:36.787 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.787 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.787 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-28 17:27:36.791 -08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-28 17:27:36.793 -08:00 [DBG] Closing data reader to 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.793 -08:00 [DBG] A data reader for 'MagicVilla' on server 'HAANNET7\INSTANCE2022' is being disposed after spending 1ms reading results.
+2022-11-28 17:27:36.794 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.794 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (0ms).
+2022-11-28 17:27:36.802 -08:00 [INF] Applying migration '20221129012048_SeedVillaTable'.
+2022-11-28 17:27:36.842 -08:00 [DBG] Executing 5 update commands as a batch.
+2022-11-28 17:27:36.851 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.852 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.853 -08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-11-28 17:27:36.860 -08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-11-28 17:27:36.861 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.861 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.862 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.862 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+VALUES (1, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2022-11-28 17:27:36.880 -08:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [Sqft], [UpdatedDate])
+VALUES (1, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa3.jpg', N'Royal Villa', 4, 200.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(2, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa1.jpg', N'Premium Pool Villa', 4, 300.0E0, 550, '0001-01-01T00:00:00.0000000'),
+(3, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa4.jpg', N'Luxury Pool Villa', 4, 400.0E0, 750, '0001-01-01T00:00:00.0000000'),
+(4, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa5.jpg', N'Diamond Villa', 4, 550.0E0, 900, '0001-01-01T00:00:00.0000000'),
+(5, N'', '0001-01-01T00:00:00.0000000', N'Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.', N'https://dotnetmasteryimages.blob.core.windows.net/bluevillaimages/villa2.jpg', N'Diamond Pool Villa', 4, 600.0E0, 1100, '0001-01-01T00:00:00.0000000');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'Sqft', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2022-11-28 17:27:36.880 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.880 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.881 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.881 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221129012048_SeedVillaTable', N'7.0.0');
+2022-11-28 17:27:36.881 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221129012048_SeedVillaTable', N'7.0.0');
+2022-11-28 17:27:36.882 -08:00 [DBG] Committing transaction.
+2022-11-28 17:27:36.886 -08:00 [DBG] Committed transaction.
+2022-11-28 17:27:36.887 -08:00 [DBG] Disposing transaction.
+2022-11-28 17:27:36.887 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.887 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (0ms).
+2022-11-28 17:27:36.887 -08:00 [INF] Applying migration '20221129012528_SeedVillaTableWithCreatedDate'.
+2022-11-28 17:27:36.901 -08:00 [DBG] Opening connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.901 -08:00 [DBG] Opened connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.901 -08:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-11-28 17:27:36.902 -08:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2022-11-28 17:27:36.902 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.902 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.902 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.902 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061076-08:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.907 -08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061076-08:00'
+WHERE [Id] = 1;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.907 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.907 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.907 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.907 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061152-08:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.908 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061152-08:00'
+WHERE [Id] = 2;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.908 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.908 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.908 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.908 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061156-08:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.908 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061156-08:00'
+WHERE [Id] = 3;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.908 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.908 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.908 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.908 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061162-08:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.909 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061162-08:00'
+WHERE [Id] = 4;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.909 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.909 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.909 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.909 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061167-08:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.909 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE [Villas] SET [CreatedDate] = '2022-11-28T17:25:28.6061167-08:00'
+WHERE [Id] = 5;
+SELECT @@ROWCOUNT;
+2022-11-28 17:27:36.909 -08:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-28 17:27:36.909 -08:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.909 -08:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-28 17:27:36.909 -08:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221129012528_SeedVillaTableWithCreatedDate', N'7.0.0');
+2022-11-28 17:27:36.910 -08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221129012528_SeedVillaTableWithCreatedDate', N'7.0.0');
+2022-11-28 17:27:36.910 -08:00 [DBG] Committing transaction.
+2022-11-28 17:27:36.911 -08:00 [DBG] Committed transaction.
+2022-11-28 17:27:36.911 -08:00 [DBG] Disposing transaction.
+2022-11-28 17:27:36.911 -08:00 [DBG] Closing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.911 -08:00 [DBG] Closed connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022' (0ms).
+2022-11-28 17:27:36.912 -08:00 [DBG] 'ApplicationDbContext' disposed.
+2022-11-28 17:27:36.914 -08:00 [DBG] Disposing connection to database 'MagicVilla' on server 'HAANNET7\INSTANCE2022'.
+2022-11-28 17:27:36.914 -08:00 [DBG] Disposed connection to database '' on server '' (0ms).

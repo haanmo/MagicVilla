@@ -3,6 +3,7 @@ using MagicVilla_VillaAPI.Models.Dto;
 
 namespace MagicVilla_VillaAPI.Data
 {
+    // as we created a database, we don't need it anymore.
 	public static class VillaStore
 	{
 		public static List<VillaDTO> villaList = new List<VillaDTO>

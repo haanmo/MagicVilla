@@ -14,6 +14,7 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+// To use a database, add ApplicationDbContext. In VillaAPIController, we utilize the ApplicationDbContext.
 builder.Services.AddDbContext<ApplicationDbContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
 });
