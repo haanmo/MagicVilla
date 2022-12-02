@@ -1,5 +1,8 @@
-﻿using MagicVilla_VillaAPI.Data;
+﻿using MagicVilla_VillaAPI;
+using MagicVilla_VillaAPI.Data;
 using MagicVilla_VillaAPI.Logging;
+using MagicVilla_VillaAPI.Repository;
+using MagicVilla_VillaAPI.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -14,10 +17,22 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+////////////////////////
+///// Add Services /////
+////////////////////////
+
+// Add DB Context
 // To use a database, add ApplicationDbContext. In VillaAPIController, we utilize the ApplicationDbContext.
 builder.Services.AddDbContext<ApplicationDbContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
 });
+
+// Add Repositories
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
+
+// Add AutoMapper. Dependency Injection into the VillaAPIContoller constructor
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 builder.Services
     .AddControllers(option =>

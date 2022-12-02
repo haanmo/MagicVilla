@@ -47,3 +47,10 @@ Solution:
 Add AsNoTracking()
 
 var villa = _db.Villas.AsNoTracking().FirstOrDefault(u => u.Id == id);
+
+3. Error:
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+return Ok(_mapper.Map<VillaDTO>(villaList));
+
+Solution:
+return Ok(_mapper.Map<List<VillaDTO>>(villaList));

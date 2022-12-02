@@ -9,12 +9,15 @@ namespace MagicVilla_VillaAPI.Data
         // add-migration AddVillaTable
         // add-migration SeedVillaTable
         // add-migration SeedVillaTableWithCreatedDate
+        // update-database
         // do not delete the previous migration file, e.g., 20221128010030_AddVillaTable.cs
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
         public DbSet<Villa> Villas { get; set; }
+        public DbSet<VillaNumber> VillaNumbers { get; set; }
 
         // Add some data entries when creating a database table.
         protected override void OnModelCreating(ModelBuilder modelBuilder)

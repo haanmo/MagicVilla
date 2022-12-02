@@ -145,3 +145,5 @@ C:\Users\Administrator\Documents\GitHub\MagicVilla\MagicVilla_VillaAPI\obj\Debug
 C:\Users\Administrator\Documents\GitHub\MagicVilla\MagicVilla_VillaAPI\obj\Debug\net7.0\MagicVilla_VillaAPI.pdb
 C:\Users\Administrator\Documents\GitHub\MagicVilla\MagicVilla_VillaAPI\obj\Debug\net7.0\MagicVilla_VillaAPI.genruntimeconfig.cache
 C:\Users\Administrator\Documents\GitHub\MagicVilla\MagicVilla_VillaAPI\obj\Debug\net7.0\ref\MagicVilla_VillaAPI.dll
+C:\Users\Administrator\Documents\GitHub\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Administrator\Documents\GitHub\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,0 +1,8 @@
+﻿1. Create Table in Database for "VillaNumbers"
+	-> in Data/ApplicationDbContext.cs, add a DbSet
+
+2. Add VillaNumberRepository
+	-> create an interface and a class in Repository folders
+	-> add dependency injection from Program.cs
+
+3. Create VillaNumberController for all RESTful Endpoints
